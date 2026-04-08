@@ -6,7 +6,7 @@ from guardian_api_key import theguardian_key
 base_url = 'https://content.guardianapis.com/search'
 
 params = {
-    'q': 'climate change',
+    'q': 'APPL',
     'from-date': '2026-01-01',
     'to-date': '2026-04-01',
     'order-by': 'relevance',
