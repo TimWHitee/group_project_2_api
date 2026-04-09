@@ -6,11 +6,12 @@ from guardian_api_key import theguardian_key
 base_url = 'https://content.guardianapis.com/search'
 
 params = {
-    'q': 'APPL',
+    'q': 'AAPL',
+    'page': 1,
     'from-date': '2026-01-01',
     'to-date': '2026-04-01',
     'order-by': 'relevance',
-    'show-blocks': 'body',
+    'show-blocks': 'main,body',
     'api-key': theguardian_key
 }
 
