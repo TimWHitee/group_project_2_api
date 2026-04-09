@@ -41,7 +41,8 @@ queries = {
 
 
 rdelay = 3
-now = datetime(2025, 1, 1)
+now = datetime(2026, 1, 1)
+print('eeeeerm')
 months = []
 while now <= datetime(2026, 4, 1):
     months.append(now.strftime("%Y%m%d"))
@@ -49,13 +50,12 @@ while now <= datetime(2026, 4, 1):
         now = datetime(now.year+1, 1, 1)
     else: 
         now = datetime(now.year, now.month+1, 1)
-
 print(len(months))
 allofem = []
 for i in range(len(months)-1):
     page = 0
-    flag = 0
     while page < 50:
+        print('ummmm')
         params = {
             "q" : "Apple",
             "fq" : 'timesTag.organization:("Apple Inc")',
@@ -63,7 +63,7 @@ for i in range(len(months)-1):
             "end_date" : months[i+1],
             "page": page,
             "sort" : "newest",
-            "api-key": "KayNQkYGvParDgi5sRjrUeILg6f1jbqAslRGg6TvYB2tq4qu"
+            "api-key": "UO4hohGUGL4sWWqljfDMaAxCHIapbVPAFEvXhwyaDnE0sLzS"
         }
 
         for attempt in range(4):
@@ -71,40 +71,42 @@ for i in range(len(months)-1):
                 res = requests.get("https://api.nytimes.com/svc/search/v2/articlesearch.json", params=params).json()
                 break
             except requests.exceptions.RequestException:
-                time.sleep(5)
+                time.sleep(7)
         else:
             break
         
-        if "fault" in res:
-            if res['fault']['detail'].get('errorcode') == 'policies.ratelimit.QuotaViolation':
-                 time.sleep(1)
-                 continue
-            else:
-                 break
         docs = res.get("response", {}).get("docs", [])
-            
+        faultys = res.get("fault", {})
+        if not faultys and not docs:
+            print('fuck')
+            break
+        elif not docs:
+            print('ratelimit moment')
+            print(res)
+            page += 1
+            time.sleep(7)
+            continue
+        
+        print('gonna append smth!')
         for doc in docs:
                 article = {
                     "company": "Apple",
-                    "headline": doc.get("headline", {}).get("main"),
                     "abstract": doc.get("abstract"),
                     "snippet": doc.get("snippet"),
-                    "lead_paragraph": doc.get("lead_paragraph"),
                     "pub_date": doc.get("pub_date"),
-                    "web_url": doc.get("web_url"),
-                    "section": doc.get("section_name"),
-                    "type": doc.get("document_type")
+
                 }
                 allofem.append(article)
+                print('appended smth!')
 
         
         print(len(allofem))
     
 
         page += 1
-        time.sleep(0.2)
+        time.sleep(7)
 
-    print(f'{months[i]} просмотрен')
+    print(months[i])
 
 with open('nyt.json', 'w', encoding='utf-8') as f:
             json.dump(allofem, f, indent=2)
