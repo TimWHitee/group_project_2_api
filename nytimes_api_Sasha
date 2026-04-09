@@ -1,0 +1,111 @@
+import requests
+from datetime import datetime, timedelta
+import json
+import time
+from requests.exceptions import SSLError, ConnectionError
+
+queries = {
+    'Apple': [
+        'Apple', 'AAPL', 'iPhone', 'Tim Cook', 'App Store',
+        'Apple revenue', 'MacBook', 'Apple Watch', 'Apple AI', 'antitrust Apple'
+    ],
+    'Exxon': [
+        'Exxon', 'XOM', 'oil price', 'Darren Woods', 'fracking',
+        'crude oil', 'natural gas', 'OPEC', 'carbon tax', 'Exxon acquisition'
+    ],
+    'Tesla': [
+        'Tesla', 'TSLA', 'Elon Musk', 'electric vehicle', 'gigafactory',
+        'EV subsidy', 'Tesla recall', 'autopilot', 'lithium battery', 'EV market'
+    ],
+    'Walmart': [
+        'Walmart', 'WMT', 'retail sales', 'Doug McMillon', 'ecommerce',
+        'consumer spending', 'supply chain', 'inflation retail', 'Walmart China', 'grocery sales'
+    ],
+    'Pfizer': [
+        'Pfizer', 'PFE', 'FDA approval', 'Albert Bourla', 'drug pipeline',
+        'patent expiry', 'vaccine sales', 'oncology drug', 'Pfizer acquisition', 'pharmaceutical regulation'
+    ],
+    'Netflix': [
+        'Netflix', 'NFLX', 'streaming', 'Ted Sarandos', 'subscribers',
+        'password sharing', 'Netflix ads', 'content spending', 'Disney Plus competition', 'Netflix price'
+    ],
+    'JPMorgan': [
+        'JPMorgan', 'JPM', 'Jamie Dimon', 'interest rates', 'banking regulation',
+        'Federal Reserve', 'investment banking', 'loan defaults', 'JPMorgan acquisition', 'Wall Street bonus'
+    ],
+    'Caterpillar': [
+        'Caterpillar', 'CAT', 'infrastructure', 'Jim Umpleby', 'construction spending',
+        'mining equipment', 'China construction', 'US infrastructure bill', 'heavy machinery', 'Caterpillar tariff'
+    ],
+}
+
+
+rdelay = 3
+now = datetime(2025, 1, 1)
+months = []
+while now <= datetime(2026, 4, 1):
+    months.append(now.strftime("%Y%m%d"))
+    if now.month == 12:
+        now = datetime(now.year+1, 1, 1)
+    else: 
+        now = datetime(now.year, now.month+1, 1)
+
+print(len(months))
+allofem = []
+for i in range(len(months)-1):
+    page = 0
+    flag = 0
+    while page < 50:
+        params = {
+            "q" : "Apple",
+            "fq" : 'timesTag.organization:("Apple Inc")',
+            "begin_date" : months[i],
+            "end_date" : months[i+1],
+            "page": page,
+            "sort" : "newest",
+            "api-key": "KayNQkYGvParDgi5sRjrUeILg6f1jbqAslRGg6TvYB2tq4qu"
+        }
+
+        for attempt in range(4):
+            try:
+                res = requests.get("https://api.nytimes.com/svc/search/v2/articlesearch.json", params=params).json()
+                break
+            except requests.exceptions.RequestException:
+                time.sleep(5)
+        else:
+            break
+        
+        if "fault" in res:
+            if res['fault']['detail'].get('errorcode') == 'policies.ratelimit.QuotaViolation':
+                 time.sleep(30)
+                 continue
+            else:
+                 break
+        docs = res.get("response", {}).get("docs", [])
+            
+        for doc in docs:
+                article = {
+                    "company": "Apple",
+                    "headline": doc.get("headline", {}).get("main"),
+                    "abstract": doc.get("abstract"),
+                    "snippet": doc.get("snippet"),
+                    "lead_paragraph": doc.get("lead_paragraph"),
+                    "pub_date": doc.get("pub_date"),
+                    "web_url": doc.get("web_url"),
+                    "section": doc.get("section_name"),
+                    "type": doc.get("document_type")
+                }
+                allofem.append(article)
+
+        
+        print(len(allofem))
+    
+
+        page += 1
+        time.sleep(0.2)
+
+    print(f'{months[i]} просмотрен')
+
+with open('nyt.json', 'w', encoding='utf-8') as f:
+            json.dump(allofem, f, indent=2)
+print('were good')
