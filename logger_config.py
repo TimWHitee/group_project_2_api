@@ -1,0 +1,2 @@
+logs = True
+details = False
