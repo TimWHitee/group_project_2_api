@@ -41,7 +41,7 @@ queries = {
 
 
 rdelay = 3
-now = datetime(2026, 1, 1)
+now = datetime(2025, 12, 1)
 print('eeeeerm')
 months = []
 while now <= datetime(2026, 4, 1):
@@ -84,7 +84,7 @@ for i in range(len(months)-1):
             print('ratelimit moment')
             print(res)
             page += 1
-            time.sleep(7)
+            time.sleep(20)
             continue
         
         print('gonna append smth!')
@@ -104,7 +104,7 @@ for i in range(len(months)-1):
     
 
         page += 1
-        time.sleep(7)
+        time.sleep(6)
 
     print(months[i])
 
