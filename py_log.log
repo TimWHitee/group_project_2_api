@@ -76,3 +76,313 @@
 2026-04-11 01:57:43,533 INFO file: Parsing_requests_Sasha&Vera.ipynb. Row added
 2026-04-11 01:57:43,533 INFO file: Parsing_requests_Sasha&Vera.ipynb. Success
 2026-04-11 02:10:42,934 INFO file: Parsing_requests_Sasha&Vera.ipynb. Success
+22026-04-11 02:56:02,543 INFO api_research_TheGuardian_Tim.ipynb, request uploaded
+2026-04-11 02:56:02,544 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:21,495 INFO api_research_TheGuardian_Tim.ipynb, response uploaded
+2026-04-11 02:59:21,496 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:26,040 INFO api_research_TheGuardian_Tim.ipynb, dict created
+2026-04-11 02:59:26,040 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:36,639 INFO API request for Apple
+2026-04-11 02:59:36,640 INFO Apple recorded in search_query 
+2026-04-11 02:59:36,645 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:36,645 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:37,898 INFO API request for Apple
+2026-04-11 02:59:37,898 INFO iPhone recorded in search_query 
+2026-04-11 02:59:37,900 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:37,900 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:39,199 INFO API request for Apple
+2026-04-11 02:59:39,199 INFO Tim Cook recorded in search_query 
+2026-04-11 02:59:39,201 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:39,201 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:40,568 INFO API request for Apple
+2026-04-11 02:59:40,569 INFO App Store recorded in search_query 
+2026-04-11 02:59:40,573 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:40,573 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:42,038 INFO API request for Apple
+2026-04-11 02:59:42,038 INFO Apple revenue recorded in search_query 
+2026-04-11 02:59:42,040 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:42,040 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:42,499 INFO API request for Apple
+2026-04-11 02:59:42,499 INFO MacBook recorded in search_query 
+2026-04-11 02:59:42,501 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:42,501 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:44,064 INFO API request for Apple
+2026-04-11 02:59:44,064 INFO Apple Watch recorded in search_query 
+2026-04-11 02:59:44,066 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:44,066 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:45,496 INFO API request for Apple
+2026-04-11 02:59:45,496 INFO Apple AI recorded in search_query 
+2026-04-11 02:59:45,499 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:45,499 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:47,036 INFO API request for Apple
+2026-04-11 02:59:47,036 INFO antitrust Apple recorded in search_query 
+2026-04-11 02:59:47,038 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:47,038 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:47,893 INFO API request for Exxon
+2026-04-11 02:59:47,893 INFO Exxon recorded in search_query 
+2026-04-11 02:59:47,896 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:47,896 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:49,714 INFO API request for Exxon
+2026-04-11 02:59:49,714 INFO oil price recorded in search_query 
+2026-04-11 02:59:49,717 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:49,717 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:51,211 INFO API request for Exxon
+2026-04-11 02:59:51,211 INFO Darren Woods recorded in search_query 
+2026-04-11 02:59:51,215 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:51,215 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:52,031 INFO API request for Exxon
+2026-04-11 02:59:52,032 INFO fracking recorded in search_query 
+2026-04-11 02:59:52,034 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:52,034 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:53,555 INFO API request for Exxon
+2026-04-11 02:59:53,556 INFO crude oil recorded in search_query 
+2026-04-11 02:59:53,567 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:53,567 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:55,094 INFO API request for Exxon
+2026-04-11 02:59:55,094 INFO natural gas recorded in search_query 
+2026-04-11 02:59:55,103 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:55,103 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:56,272 INFO API request for Exxon
+2026-04-11 02:59:56,273 INFO OPEC recorded in search_query 
+2026-04-11 02:59:56,283 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:56,283 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:57,873 INFO API request for Exxon
+2026-04-11 02:59:57,874 INFO carbon tax recorded in search_query 
+2026-04-11 02:59:57,885 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:57,885 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 02:59:59,350 INFO API request for Exxon
+2026-04-11 02:59:59,351 INFO Exxon acquisition recorded in search_query 
+2026-04-11 02:59:59,363 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 02:59:59,363 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:00,917 INFO API request for Tesla
+2026-04-11 03:00:00,918 INFO Tesla recorded in search_query 
+2026-04-11 03:00:00,933 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:00,933 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:03,040 INFO API request for Tesla
+2026-04-11 03:00:03,040 INFO Elon Musk recorded in search_query 
+2026-04-11 03:00:03,054 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:03,054 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:04,572 INFO API request for Tesla
+2026-04-11 03:00:04,572 INFO electric vehicle recorded in search_query 
+2026-04-11 03:00:04,585 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:04,585 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:05,602 INFO API request for Tesla
+2026-04-11 03:00:05,603 INFO gigafactory recorded in search_query 
+2026-04-11 03:00:05,614 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:05,614 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:07,156 INFO API request for Tesla
+2026-04-11 03:00:07,156 INFO EV subsidy recorded in search_query 
+2026-04-11 03:00:07,167 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:07,167 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:08,790 INFO API request for Tesla
+2026-04-11 03:00:08,792 INFO Tesla recall recorded in search_query 
+2026-04-11 03:00:08,805 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:08,805 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:09,318 INFO API request for Tesla
+2026-04-11 03:00:09,319 INFO autopilot recorded in search_query 
+2026-04-11 03:00:09,332 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:09,333 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:10,874 INFO API request for Tesla
+2026-04-11 03:00:10,875 INFO lithium battery recorded in search_query 
+2026-04-11 03:00:10,888 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:10,888 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:12,465 INFO API request for Tesla
+2026-04-11 03:00:12,465 INFO EV market recorded in search_query 
+2026-04-11 03:00:12,486 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:12,487 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:13,670 INFO API request for Walmart
+2026-04-11 03:00:13,670 INFO Walmart recorded in search_query 
+2026-04-11 03:00:13,685 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:13,685 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:14,088 INFO API request for Walmart
+2026-04-11 03:00:14,089 INFO WMT recorded in search_query 
+2026-04-11 03:00:14,103 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:14,103 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:15,465 INFO API request for Walmart
+2026-04-11 03:00:15,465 INFO retail sales recorded in search_query 
+2026-04-11 03:00:15,481 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:15,481 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:16,527 INFO API request for Walmart
+2026-04-11 03:00:16,528 INFO Doug McMillon recorded in search_query 
+2026-04-11 03:00:16,543 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:16,544 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:17,020 INFO API request for Walmart
+2026-04-11 03:00:17,021 INFO ecommerce recorded in search_query 
+2026-04-11 03:00:17,033 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:17,034 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:18,537 INFO API request for Walmart
+2026-04-11 03:00:18,537 INFO consumer spending recorded in search_query 
+2026-04-11 03:00:18,552 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:18,553 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:20,098 INFO API request for Walmart
+2026-04-11 03:00:20,099 INFO supply chain recorded in search_query 
+2026-04-11 03:00:20,112 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:20,113 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:21,595 INFO API request for Walmart
+2026-04-11 03:00:21,596 INFO inflation retail recorded in search_query 
+2026-04-11 03:00:21,612 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:21,612 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:23,221 INFO API request for Walmart
+2026-04-11 03:00:23,222 INFO Walmart China recorded in search_query 
+2026-04-11 03:00:23,237 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:23,238 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:24,658 INFO API request for Walmart
+2026-04-11 03:00:24,659 INFO grocery sales recorded in search_query 
+2026-04-11 03:00:24,673 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:24,674 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:26,379 INFO API request for Pfizer
+2026-04-11 03:00:26,379 INFO Pfizer recorded in search_query 
+2026-04-11 03:00:26,397 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:26,397 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:28,248 INFO API request for Pfizer
+2026-04-11 03:00:28,249 INFO FDA approval recorded in search_query 
+2026-04-11 03:00:28,265 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:28,265 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:29,231 INFO API request for Pfizer
+2026-04-11 03:00:29,232 INFO Albert Bourla recorded in search_query 
+2026-04-11 03:00:29,249 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:29,250 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:30,881 INFO API request for Pfizer
+2026-04-11 03:00:30,882 INFO drug pipeline recorded in search_query 
+2026-04-11 03:00:30,899 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:30,899 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:31,884 INFO API request for Pfizer
+2026-04-11 03:00:31,884 INFO patent expiry recorded in search_query 
+2026-04-11 03:00:31,901 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:31,901 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:33,781 INFO API request for Pfizer
+2026-04-11 03:00:33,782 INFO vaccine sales recorded in search_query 
+2026-04-11 03:00:33,801 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:33,801 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:34,999 INFO API request for Pfizer
+2026-04-11 03:00:34,999 INFO oncology drug recorded in search_query 
+2026-04-11 03:00:35,017 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:35,018 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:36,361 INFO API request for Pfizer
+2026-04-11 03:00:36,362 INFO Pfizer acquisition recorded in search_query 
+2026-04-11 03:00:36,382 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:36,383 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:37,975 INFO API request for Pfizer
+2026-04-11 03:00:37,976 INFO pharmaceutical regulation recorded in search_query 
+2026-04-11 03:00:37,998 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:37,998 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:39,563 INFO API request for Netflix
+2026-04-11 03:00:39,563 INFO Netflix recorded in search_query 
+2026-04-11 03:00:39,586 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:39,587 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:41,487 INFO API request for Netflix
+2026-04-11 03:00:41,488 INFO streaming recorded in search_query 
+2026-04-11 03:00:41,512 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:41,513 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:42,451 INFO API request for Netflix
+2026-04-11 03:00:42,452 INFO Ted Sarandos recorded in search_query 
+2026-04-11 03:00:42,473 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:42,473 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:43,462 INFO API request for Netflix
+2026-04-11 03:00:43,463 INFO subscribers recorded in search_query 
+2026-04-11 03:00:43,480 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:43,480 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:44,792 INFO API request for Netflix
+2026-04-11 03:00:44,793 INFO password sharing recorded in search_query 
+2026-04-11 03:00:44,812 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:44,812 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:46,344 INFO API request for Netflix
+2026-04-11 03:00:46,345 INFO Netflix ads recorded in search_query 
+2026-04-11 03:00:46,369 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:46,369 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:47,902 INFO API request for Netflix
+2026-04-11 03:00:47,903 INFO content spending recorded in search_query 
+2026-04-11 03:00:47,925 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:47,925 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:49,530 INFO API request for Netflix
+2026-04-11 03:00:49,530 INFO Disney Plus competition recorded in search_query 
+2026-04-11 03:00:49,556 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:49,556 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:50,928 INFO API request for Netflix
+2026-04-11 03:00:50,929 INFO Netflix price recorded in search_query 
+2026-04-11 03:00:50,951 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:50,952 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:51,816 INFO API request for JPMorgan
+2026-04-11 03:00:51,817 INFO JPMorgan recorded in search_query 
+2026-04-11 03:00:51,836 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:51,836 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:52,251 INFO API request for JPMorgan
+2026-04-11 03:00:52,252 INFO JPM recorded in search_query 
+2026-04-11 03:00:52,273 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:52,273 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:53,742 INFO API request for JPMorgan
+2026-04-11 03:00:53,742 INFO Jamie Dimon recorded in search_query 
+2026-04-11 03:00:53,763 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:53,764 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:55,232 INFO API request for JPMorgan
+2026-04-11 03:00:55,233 INFO interest rates recorded in search_query 
+2026-04-11 03:00:55,256 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:55,256 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:56,716 INFO API request for JPMorgan
+2026-04-11 03:00:56,717 INFO banking regulation recorded in search_query 
+2026-04-11 03:00:56,736 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:56,737 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:58,207 INFO API request for JPMorgan
+2026-04-11 03:00:58,207 INFO Federal Reserve recorded in search_query 
+2026-04-11 03:00:58,229 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:58,229 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:00:59,699 INFO API request for JPMorgan
+2026-04-11 03:00:59,699 INFO investment banking recorded in search_query 
+2026-04-11 03:00:59,727 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:00:59,727 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:01,239 INFO API request for JPMorgan
+2026-04-11 03:01:01,240 INFO loan defaults recorded in search_query 
+2026-04-11 03:01:01,263 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:01,264 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:02,678 INFO API request for JPMorgan
+2026-04-11 03:01:02,679 INFO JPMorgan acquisition recorded in search_query 
+2026-04-11 03:01:02,702 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:02,702 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:04,284 INFO API request for JPMorgan
+2026-04-11 03:01:04,284 INFO Wall Street bonus recorded in search_query 
+2026-04-11 03:01:04,297 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:04,297 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:04,931 INFO API request for Caterpillar
+2026-04-11 03:01:04,931 INFO Caterpillar recorded in search_query 
+2026-04-11 03:01:04,946 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:04,946 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:06,067 INFO API request for Caterpillar
+2026-04-11 03:01:06,067 INFO CAT recorded in search_query 
+2026-04-11 03:01:06,083 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:06,084 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:07,422 INFO API request for Caterpillar
+2026-04-11 03:01:07,422 INFO infrastructure recorded in search_query 
+2026-04-11 03:01:07,437 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:07,438 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:08,914 INFO API request for Caterpillar
+2026-04-11 03:01:08,914 INFO Jim Umpleby recorded in search_query 
+2026-04-11 03:01:08,929 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:08,930 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:10,334 INFO API request for Caterpillar
+2026-04-11 03:01:10,334 INFO construction spending recorded in search_query 
+2026-04-11 03:01:10,351 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:10,351 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:11,888 INFO API request for Caterpillar
+2026-04-11 03:01:11,888 INFO mining equipment recorded in search_query 
+2026-04-11 03:01:11,901 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:11,901 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:13,313 INFO API request for Caterpillar
+2026-04-11 03:01:13,313 INFO China construction recorded in search_query 
+2026-04-11 03:01:13,329 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:13,329 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:14,775 INFO API request for Caterpillar
+2026-04-11 03:01:14,776 INFO US infrastructure bill recorded in search_query 
+2026-04-11 03:01:14,793 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:14,793 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:16,269 INFO API request for Caterpillar
+2026-04-11 03:01:16,270 INFO heavy machinery recorded in search_query 
+2026-04-11 03:01:16,288 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:16,288 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:17,621 INFO API request for Caterpillar
+2026-04-11 03:01:17,622 INFO Caterpillar tariff recorded in search_query 
+2026-04-11 03:01:17,641 INFO api_research_TheGuardian_Tim.ipynb, data created.
+2026-04-11 03:01:17,641 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:23,637 INFO api_research_TheGuardian_Tim.ipynb, identical articles are deleted.
+2026-04-11 03:01:23,638 INFO api_research_TheGuardian_Tim.ipynb, success.
+2026-04-11 03:01:29,475 INFO api_research_TheGuardian_Tim.ipynb, colums deleted
+2026-04-11 03:04:19,063 INFO api_research_TheGuardian_Tim.ipynb, file created
