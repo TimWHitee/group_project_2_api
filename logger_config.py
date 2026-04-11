@@ -1,2 +1,2 @@
 logs = True
-details = False
+details = True
